@@ -1,0 +1,274 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Go Shopping</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!-- <div class="content-backdrop"></div> -->
+        <header>
+            <div class="toggle-button-div">
+                <button class="toggle-button">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+            </div>
+            <div class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#">Men</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Women</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Kids</a>
+                    </li>
+                    <li class="main-nav__item" id="electronics">
+                        <a href="#">Electronics</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="header-brand">
+                <a href="index.html" class="brand"><img src="index.jpg" class="header_img"></a>
+            </div>
+        </header>
+        <div class="side-nav">
+            <div class="mobile-nav">
+                <ul class="mobile-nav__items">
+                    <li class="mobile-nav__item">
+                        <a href="#">
+                            <div class="mobile-nav__item-link">
+                            Men
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="mobile-nav__item-arrow">
+                                <div class="arrow-right">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- <hr> -->
+                    <li class="mobile-nav__item">
+                        <a href="#">
+                            <div class="mobile-nav__item-link">
+                            Women
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="mobile-nav__item-arrow">
+                                <div class="arrow-right">
+                                </div>
+                            </div>
+                        </a>                        
+                    </li>
+                    <!-- <hr> -->
+                    <li class="mobile-nav__item">
+                        <a href="#">
+                            <div class="mobile-nav__item-link">
+                            Kids
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="mobile-nav__item-arrow">
+                                <div class="arrow-right">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- <hr> -->
+                    <li class="mobile-nav__item" id="electronics">
+                        <a href="#">
+                            <div class="mobile-nav__item-link">
+                            Electronics
+                        </div>
+                        </a>
+                        <a id="electronics-arrow-link" href="#">
+                        <div class="mobile-nav__item-arrow">
+                            <div class="arrow-right" id="electronics-arrow"></div>
+                        </div>
+                        </a>
+                        <div class="electronics-list">
+                            <ul class="electronics-list__items">
+                                <li class="electronics-list__item">
+                                    <a href="#">Mobiles</a>
+                                </li>
+                                <li class="electronics-list__item">
+                                    <a href="#">Laptops and Computers</a>
+                                </li>
+                                <li class="electronics-list__item">
+                                    <a href="#">Television</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <a class="arrow-down" href="#"></a> -->
+                    </li>
+                </ul>
+            </div>    
+        </div>
+        <div class="content-div">
+            <div class="content-panel">
+                <div class="content">
+                    <h3><a href="#">Mobiles</a></h3>
+                    <ul class="content-list">
+                        <li>
+                            <a href="#">Samsung</a>
+                        </li>
+                        <li>
+                            <a href="#">Apple</a>
+                        </li>
+                        <li>
+                            <a href="#">Redmi</a>
+                        </li>
+                        <li>
+                            <a href="#">Nokia</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="vertical"></div> -->
+                <div class="content">
+                    <h3><a href="#">Television</a></h3>
+                    <ul class="content-list">
+                        <li>
+                            <a href="#">Samsung</a>
+                        </li>
+                        <li>
+                            <a href="#">Sony</a>
+                        </li>
+                        <li>
+                            <a href="#">LG</a>
+                        </li>
+                        <li>
+                            <a href="#">Nokia</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h3><a href="#">Laptops</a></h3>
+                    <ul class="content-list">
+                        <li>
+                            <a href="#">Apple</a>
+                        </li>
+                        <li>
+                            <a href="#">Dell</a>
+                        </li>
+                        <li>
+                            <a href="#">Lenovo</a>
+                        </li>
+                        <li>
+                            <a href="#">HP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <main class="main">
+            <div class="content-backdrop"></div>
+            <div class="page-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Women/OrangeKurta.jpg" alt="OrangeKurta" class="item-img">
+                                <span>Women Orange Yoke Design Kurta with Churidar & Dupatta</span>
+                                </a>
+                                <p>Rs. 1299</p>
+                            </div>
+                           
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Women/BlueKurta.jpg" alt="BlueKurta" class="item-img">
+                                <span>Women Teal & Green Printed A-Line Kurta</span>
+                                </a>
+                                <p>Rs. 689</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Women/Taavi-Women-Tops.jpg" alt="Taavi-Women-Tops" class="item-img">
+                                <span>Women Pink Striped Woven Legacy A-Line Top with Smocking Detail</span>
+                                </a>
+                                <p>Rs. 1049</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Women/HERENOW.jpg" alt="HERENOWTunic" class="item-img">
+                                <span>Women White & Green Printed A-Line Top</span>
+                                </a>
+                                <p>Rs. 769</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row top2">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Men/Men-Burgundy-Slim-Fit-Shirt.jpg" alt="Men-Burgundy-Slim-Fit-Shirt" class="item-img">
+                                <span>Men Burgundy Slim Fit Solid Casual Shirt</span>
+                                </a>
+                                <p>Rs. 649</p>
+                            </div>
+                           
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Men/Men-Olive-GreenShirt.jpg" alt="Men-Olive-GreenShirt" class="item-img">
+                                <span>Men Olive Green Linen Regular Fit Solid Linen Casual Shirt</span>
+                                </a>
+                                <p>Rs. 1539</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Men/Roadster-Men-Tshirts.jpg" alt="Roadster-Men-Tshirts" class="item-img">
+                                <span>Men Navy Blue Solid Mandarin Collar T-shirt</span>
+                                </a>
+                                <p>Rs. 769</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="#">
+                                    <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
+                                    <img src="./Men/WROGN-Men-Jeans.jpg" alt="WROGN-Men-Jeans" class="item-img">
+                                <span>Men Blue Slim Fit Mid-Rise Clean Look Stretchable Jeans</span>
+                                </a>
+                                <p>Rs. 1819</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+    <script src="main.js"></script>
+    </body>
+</html> 
