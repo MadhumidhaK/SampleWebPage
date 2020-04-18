@@ -38,8 +38,9 @@ label {
     display: none;
     position: fixed;
     min-width: 17rem;
+    min-height: 11rem;
     width: 90%;
-    top: 30%;
+    top: 10%;
     left: 5%;
     height: 40%;
     border-radius: 5px;
