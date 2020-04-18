@@ -2,12 +2,25 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Go Shopping</title>
+        <link rel="shortcut icon" href="index.jpg">
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <!-- <div class="content-backdrop"></div> -->
+        <div class="full-backdrop"></div>
+
+        <div class="login-modal">
+            <div>
+                <input type="text" id="userid" placeholder="Enter Email/Mobile Number">
+            </div>
+            <div>
+                <input type="password" id="Password" placeholder="Enter Password">
+            </div>
+            <div>
+                <a href="#" class="btn">Log In</a>
+            </div>
+        </div>
         <header>
             <div class="toggle-button-div">
                 <button class="toggle-button">
@@ -33,9 +46,15 @@
                 </ul>
             </div>
             
-            <div class="header-brand">
-                <a href="index.html" class="brand"><img src="index.jpg" class="header_img"></a>
+            <div class="brand-login">
+                <div class="login">
+                    <a href="#" id="loginlink">Login</a>
+                </div>    
+                <div class="header-brand">
+                    <a href="index.html" class="brand"><img src="index.jpg" class="header_img"></a>
+                </div>
             </div>
+            
         </header>
         <div class="side-nav">
             <div class="mobile-nav">
@@ -109,6 +128,10 @@
                         <!-- <a class="arrow-down" href="#"></a> -->
                     </li>
                 </ul>
+
+                <div class="mobile-login">
+                    <a href="#" id="mobileloginlink">Login</a>
+                </div> 
             </div>    
         </div>
         <div class="content-div">
@@ -315,7 +338,7 @@
                                 <a href="#">
                                     <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
                                     <img src="./LaptopsAndDesktops/apple-laptop.jpeg" alt="apple-laptop" class="item-img">
-                                <span>Apple MacBook Air Core i5 8th Gen - (8 GB/128 GB SSD/Mac OS Mojave) MVFH2HN/A  (13.3 inch, Space Grey, 1.25 kg)</span>
+                                <span>Apple MacBook Air Core i5 8th Gen -(8 GB/128 GB SSD/Mac OS Mojave)(13.3 inch, Space Grey, 1.25 kg)</span>
                                 </a>
                                 <p>Rs. 94,990</p>
                             </div>
@@ -326,7 +349,7 @@
                                 <a href="#">
                                     <!-- <a href="#" class="to-cart"> Add to Cart</a>  try adding this as first child in js  -->
                                     <img src="./LaptopsAndDesktops/hp-desktop.jpeg" alt="hp-desktop" class="item-img">
-                                <span>HP Core i3 (4 GB DDR4/1 TB/Windows 10 Home/21.45 Inch Screen)  (Black, 39.07 cm x 49.03 cm x 20.41 cm, 5.39 kg)</span>
+                                <span>HP Core i3 - 4GB/1TB/Windows10/21.45 Inch Screen, Black, 39.07 cm x 49.03 cm x 20.41 cm, 5.39 kg</span>
                                 </a>
                                 <p>Rs. 41,990</p>
                             </div>
@@ -335,10 +358,20 @@
                     </div>
 
                 </div>
-            </div>
-            
+            </div>            
         </main>
-
+        <footer class="main-footer">
+            <nav>
+                <ul class="main-footer__items">
+                    <li class="main-footer__item">
+                       <a href="#">Support</a> 
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="#">Terms of use</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     <script src="main.js"></script>
     </body>
 </html> 
