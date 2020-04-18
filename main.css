@@ -242,29 +242,40 @@ h3{
     margin-top: 3rem;
 }
 
+.category-heading {
+    /* text-align: center; */
+    padding: 1rem;
+}
+.category-heading a{
+    color: black;
+    text-decoration: none;
+}
+
+.category-heading a:hover{
+    color: crimson;
+}
+
 .top2{
     margin-top: 2rem;
 }
 .item{
-    border: black solid 3px;
-    border-radius: 5px;
     padding: 0;
-    height: 100%;
-    /* margin-top: 1rem; */
 }
+
+
 
 .item a{
     color: black;
     text-align: end;
-    
 }
 
 
 .item-img {
-    height: 22rem;
     width: 100%;
+    min-height: 15rem;
+    object-fit: contain;
+    /* vertical-align: middle; */
     position: relative;
-
 }
 span{
  color: black;
@@ -279,7 +290,6 @@ span p{
     z-index: 5;
     top: 50%;
     left: 25%;
-    /* display: none; */
 }
 
 @media (min-width: 40rem){
@@ -308,6 +318,15 @@ span p{
 
     .content-panel{
         margin-top: 3.333312rem;
+    }
+
+    .item{
+        padding: 1rem;
+    }
+
+    .item:hover{
+        padding: 0;
+        position: absolute;
     }
 }
 
